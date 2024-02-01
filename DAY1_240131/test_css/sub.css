@@ -1,0 +1,16 @@
+:root {
+  color: #333;
+}
+
+h3 {
+  color: #c00;
+  font-size: 30px;
+}
+
+p {
+  color: --var(color);
+}
+
+ul > li:nth-child(2) {
+  border: 1px solid #333;
+}/*# sourceMappingURL=sub.css.map */

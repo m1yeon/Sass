@@ -1,0 +1,70 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "맑은 고딕", arial, sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  padding: 10px;
+}
+
+header img {
+  height: 70px;
+}
+
+dl {
+  margin: 0px 5px;
+  overflow: hidden;
+  border-top: 3px solid #b662b9;
+  border-bottom: 3px solid #b662b9;
+}
+
+dt {
+  background: #d484d7;
+  color: #222;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 50px;
+  text-indent: 10px;
+}
+
+dd {
+  color: #333;
+  text-decoration: none;
+  text-indent: 10px;
+  background: #dfdfdf;
+  border-bottom: 1px solid #b662b9;
+}
+
+dd > a {
+  color: #333;
+  line-height: 40px;
+  transition: 0.4s;
+}
+
+dd > a:hover {
+  font-weight: bold;
+  background: #dfdfdf;
+  display: block;
+}
+
+footer {
+  background: #222;
+  text-align: center;
+  color: #fff;
+  line-height: 60px;
+}
+
+footer address {
+  font-style: normal;
+}/*# sourceMappingURL=main.css.map */

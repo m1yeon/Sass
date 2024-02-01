@@ -1,0 +1,73 @@
+
+$value0:0px;
+$font12: 12px;
+$color01: #333;
+$color02: #222;
+$color03: #fff;
+$color04: #dfdfdf;
+$t_align01: center;
+$border01 : 1px;
+$border02 : 2px;
+$border03 : 3px;
+$color05: #b662b9;
+
+//공통서식
+*{margin: 0px; padding: 0px;}
+body{
+  font-family:'맑은 고딕',arial,sans-serif;
+  font-size: 12px;
+  color: $color01;
+}
+
+// 헤더서식
+header{text-align: $t_align01; }
+header h1{padding: 10px;}
+header img{height: 70px;}
+
+//메인서식
+main{}
+dl{margin: 0px 5px; overflow: hidden;
+  border-top: $border03 solid #b662b9;
+  border-bottom:  $border03 solid #b662b9;
+
+}
+dt{
+  background: #d484d7;
+  color: $color02;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 50px;
+  text-indent: 10px;
+
+}
+
+dd{
+  color: $color01;
+  text-decoration: none;
+  text-indent: 10px;
+  background: $color04;
+  border-bottom: 1px solid $color05;
+}
+
+dd > a{
+  color: $color01;
+  line-height: 40px;
+  transition: 0.4s;
+}
+
+dd > a:hover{
+  font-weight: bold;
+  background: #dfdfdf;
+  // text-align: $t_align01;
+  // transform: scale(1.1);
+  display: block;
+}
+
+//푸터서식
+footer{
+  background: $color02; 
+  text-align: $t_align01;
+  color: #fff;
+  line-height: 60px;
+}
+footer address{font-style: normal;}
